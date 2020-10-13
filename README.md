@@ -1,4 +1,4 @@
-# algorithm-lab
+
 # algorithm-lab
 1. clone my repository: 
 (if you are working with a console)
