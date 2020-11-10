@@ -21,19 +21,18 @@ cd projects/algorithm-lab
 
 3. if you do not have Phyton 3+ installed, you must use the console:
 ```
-python main.py
+python lalalal.py
 ```
 
 ***
 
-this program shows you the results of insertion and merge sorts for each algorithm, it also shows some additional information, such as:
-* time,
-* swap counter,
-* comparison counter.
+this program will show you the solution to the problem of Jackie and Bananas using binary search.
 
-counters represent the numbers of corresponding operations that occurred during the sorting process.
+there are also doctests that can be used to check whether the methods work correctly.
 
-the list of objects is taken from *basin.csv* file. Each row there represents a new object as a sequence of its properties' values separated by commas. The order is:
-```
-address, volume_of_water, max_number_of_visitors
-```
+***
+# The condition of the problem
+Горила Джекі із зоопарку Мюнхена любить їсти банани. На складі зоопарку є N кошиків (piles) з бананами, у і-тому кошику є певна кількість бананів Х. Кошики знаходяться під охороною, але охорона здійснює обхід зоопарку на Н годин, протягом якого Джекі може поласувати своєю улюбленою стравою. Джекі може з'їсти за годину К бананів. Кожну годину вона вибирає кошик з бананами і їсть К бананів звідти. Якщо кошик має менше, ніж К бананів, вона з'їдає всі банани з нього і більше не буде їсти бананів протягом цієї години. Джекі любить їсти повільно, але все ж хочеться закінчити споживання всіх бананів, перш ніж охоронці повернуться.
+
+Визначіть мінімальне ціле число К таким чином, щоб Джекі могла з'їсти всі банани на складі протягом Н годин, поки повернеться охорона.
+
