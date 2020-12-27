@@ -25,15 +25,4 @@ python main.py
 ```
 
 ***
-
-this program shows you the results of insertion and merge sorts for each algorithm, it also shows some additional information, such as:
-* time,
-* swap counter,
-* comparison counter.
-
-counters represent the numbers of corresponding operations that occurred during the sorting process.
-
-the list of objects is taken from *basin.csv* file. Each row there represents a new object as a sequence of its properties' values separated by commas. The order is:
-```
-address, volume_of_water, max_number_of_visitors
-```
+Цей код шукає підстрічки у стрічці за допомогою наївного алгоритму.
