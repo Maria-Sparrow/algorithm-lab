@@ -10,6 +10,14 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(naive_search("AAAAAAA", "AAAA"), [(0, 4), (1, 5), (2, 6), (3, 7)])
         self.assertEqual(naive_search("AAAAAAAAAAAAAAAAAB", "AAAB"), [(14, 18)])
 
+    def test_empty_string(self):
+        self.assertEqual(naive_search("","abc"), [])
+
+    def test_empty_substr(self):
+        self.assertEqual(naive_search("abc",""),[])
+
+
+
 
 if __name__ == '__main__':
     unittest.main()
